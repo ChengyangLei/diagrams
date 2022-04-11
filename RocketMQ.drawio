@@ -1,1 +1,280 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T02:36:12.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.5" etag="ibB0VaR91rg6PaY71Kiv" type="github"><diagram id="-DQdNPNHCEpy4ki3DwCV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-11T02:55:25.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="HGHRCgP9hxaQ38HuP4l2" version="17.1.5" type="github">
+  <diagram id="-DQdNPNHCEpy4ki3DwCV" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pns2Nj1gonVItBrB9ePC-2" value="RocketMQ&lt;br&gt;（单机，抗10万并发）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-3" target="pns2Nj1gonVItBrB9ePC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-3" value="系统A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-5" value="10万QPS，1000条消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="710" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-8" value="单机模式" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="710" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-11" target="pns2Nj1gonVItBrB9ePC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-11" value="系统A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-12" target="pns2Nj1gonVItBrB9ePC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-12" value="系统C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-13" target="pns2Nj1gonVItBrB9ePC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-13" value="系统B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-14" value="RocketMQ&lt;br&gt;(单机，抗10万并发）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-15" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-16" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="480" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-20" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-21" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="610" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-22" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-24" value="集群模式" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-25" value="应对每秒几十万的请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="280" width="820" height="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-29" target="pns2Nj1gonVItBrB9ePC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-29" value="系统A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-31" target="pns2Nj1gonVItBrB9ePC-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-31" value="系统C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-33" target="pns2Nj1gonVItBrB9ePC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-33" value="系统B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-34" target="pns2Nj1gonVItBrB9ePC-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-34" value="RocketMQ&lt;br&gt;(单机，抗10万并发）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-35" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="600" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-36" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="480" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-37" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-38" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="610" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-39" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-40" value="集群模式" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-41" value="存储1亿条消息记录,10个broker，每个broker存储1000万" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="240" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-42" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-47" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-49" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-51" target="pns2Nj1gonVItBrB9ePC-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-51" value="系统D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-52" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-53" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="740" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-55" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-57" target="pns2Nj1gonVItBrB9ePC-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-57" value="系统E" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-58" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="850" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-59" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-61" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-63" target="pns2Nj1gonVItBrB9ePC-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-63" value="系统F" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-64" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="970" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-65" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="980" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-67" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-69" target="pns2Nj1gonVItBrB9ePC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-69" value="系统G" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-70" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1090" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-71" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1100" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-73" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-75" target="pns2Nj1gonVItBrB9ePC-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-75" value="系统H" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-76" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-77" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-79" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-81" target="pns2Nj1gonVItBrB9ePC-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-81" value="系统I" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-82" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1310" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-83" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-85" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pns2Nj1gonVItBrB9ePC-87" target="pns2Nj1gonVItBrB9ePC-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-87" value="系统J&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-88" value="&lt;span&gt;RocketMQ&lt;/span&gt;&lt;br&gt;&lt;span&gt;(单机，抗10万并发）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1430" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-89" value="10万QPS，1000条消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pns2Nj1gonVItBrB9ePC-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pns2Nj1gonVItBrB9ePC-91" value="磁盘文件&lt;br&gt;存储1000万条消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
