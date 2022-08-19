@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T06:23:06.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="meV6b3Rk2iMD7pPC6pHQ" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T06:29:26.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nW4irEZfRelp6WYQPJ1Y" version="20.2.5" type="github">
   <diagram id="RYHcWupW3t-YoN3FVMBu" name="第 1 页">
-    <mxGraphModel dx="2249" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,9 +247,6 @@
         <mxCell id="bxU7VfCcc-4-f3S-htUw-83" value="获取配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=23;opacity=100;" parent="1" key="1672a05ffbfcd4" vertex="1">
           <mxGeometry x="901" y="933.0312480926514" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bxU7VfCcc-4-f3S-htUw-84" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.yuaoq.com/template/mind/network/11828/14b86480-43f9-48a5-bb11-4cbf219f6bba.png;strokeWidth=2;opacity=100" parent="1" key="1672a078f2909b" vertex="1">
-          <mxGeometry x="253" y="1018.26171875" width="68" height="62.5" as="geometry" />
-        </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-85" value="缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#ffffff;fontSize=23;opacity=100;" parent="1" key="1672a07bd6520c" vertex="1">
           <mxGeometry x="413" y="1023.1859140014648" width="160" height="40" as="geometry" />
         </mxCell>
@@ -264,12 +261,6 @@
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-89" value="数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#ffffff;fontSize=23;opacity=100;" parent="1" key="1672a0a3f7e9b" vertex="1">
           <mxGeometry x="920" y="1023.18171875" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="bxU7VfCcc-4-f3S-htUw-90" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.yuaoq.com/template/mind/network/11828/2ed3c5e9-6045-408c-a0de-58915d814300.png;strokeWidth=2;opacity=100" parent="1" key="1672a0b89599c4" vertex="1">
-          <mxGeometry x="495" y="1020.51171875" width="75" height="62.5" as="geometry" />
-        </mxCell>
-        <mxCell id="bxU7VfCcc-4-f3S-htUw-91" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.yuaoq.com/template/mind/network/11828/1087bfd7-ca47-4393-a4b0-c7ac3368c448.png;strokeWidth=2;opacity=100" parent="1" key="1672a0e5d20ba9" vertex="1">
-          <mxGeometry x="769.255859375" y="1018.26171875" width="76" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-92" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=0;labelPosition=center;align=right;strokeWidth=2;fillColor=#e5e5e5;opacity=100;" parent="1" key="1672a11f8c9d37" vertex="1">
           <mxGeometry x="84" y="1251" width="100" height="131.3333282470703" as="geometry" />
@@ -297,9 +288,6 @@
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-100" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;align=center;strokeWidth=2;fillColor=#99ccff;opacity=100;" parent="1" key="1672a1766ce8bb" vertex="1">
           <mxGeometry x="1311.51171875" y="631" width="167.15496826171875" height="583.5234375" as="geometry" />
-        </mxCell>
-        <mxCell id="bxU7VfCcc-4-f3S-htUw-101" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.yuaoq.com/template/mind/network/11828/c4e3d329-741c-4e08-8fe9-ced0dfff7b76.png;strokeWidth=2;opacity=100" parent="1" key="1672a18aa22183" vertex="1">
-          <mxGeometry x="1319.51171875" y="637.76171875" width="55" height="65.52994537353516" as="geometry" />
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-102" value="基础组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;fontSize=23;opacity=100;" parent="1" key="1672a192548982" vertex="1">
           <mxGeometry x="1324" y="650.5266914367676" width="160" height="40" as="geometry" />
@@ -342,9 +330,6 @@
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-115" value="文件服务" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;strokeWidth=2;fontColor=#ffffff;fontSize=23;fillColor=#66b2ff;opacity=100;" parent="1" key="1672ab27bcb10b" vertex="1">
           <mxGeometry x="1252.135041858151" y="546.5" width="215.3883956418493" height="41.5" as="geometry" />
-        </mxCell>
-        <mxCell id="bxU7VfCcc-4-f3S-htUw-116" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.yuaoq.com/template/mind/network/11828/23489db3-39d4-4d3b-a619-1b37d8a85613.png;strokeWidth=2;opacity=100" parent="1" key="1672ab5c465454" vertex="1">
-          <mxGeometry x="1061" y="1010.8033905029297" width="56.9765625" height="64.75" as="geometry" />
         </mxCell>
         <mxCell id="bxU7VfCcc-4-f3S-htUw-117" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;shadow=0;sketch=0;opacity=100;" parent="1" key="1672ab8f0a2bd1" vertex="1">
           <mxGeometry x="380.3837890625" y="1256" width="42.5" height="62" as="geometry" />
