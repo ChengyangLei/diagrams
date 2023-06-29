@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T02:37:26.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.0.10" etag="Xry5OdXkp4re7lkXf3rL" type="github"><diagram name="第 1 页" id="GhWoeZnSR9H5Zo3zvA46">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:09:23.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MxlxQiLzv8vMaDzv9EGP" version="21.0.10" type="github">
+  <diagram name="第 1 页" id="GhWoeZnSR9H5Zo3zvA46">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xAgu9xm0c7IVUL4pBZfr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="372.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-1" value="接口地址：https://icssit.midea.com/web/iservice-tsp/EWContractHeader/getTaxInfo&lt;br&gt;入参：{&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;customerCode&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;customerType&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;Person&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;}&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="150" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xAgu9xm0c7IVUL4pBZfr-5" target="xAgu9xm0c7IVUL4pBZfr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-2" value="iservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xAgu9xm0c7IVUL4pBZfr-2" target="xAgu9xm0c7IVUL4pBZfr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="60" as="sourcePoint" />
+            <mxPoint x="365" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-5" value="点击延保菜单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="95" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xAgu9xm0c7IVUL4pBZfr-6" target="xAgu9xm0c7IVUL4pBZfr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-6" value="接口地址：https://icssit.midea.com/web/iservice-fin/erp/taxrate/getTaxRateNew&lt;br&gt;入参：[{&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;billtosItenumber&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;M90477960001-01&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;divisionCode&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;O00001032&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;divisionName&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;THL&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;orgId&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(9, 134, 88);&quot;&gt;1174&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;organizationId&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(9, 134, 88);&quot;&gt;1355&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;partyNumber&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;M9047796&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;shiptosItenumber&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;M90477960001-0001&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;}]&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 254);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="280" width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-8" value="feign接口地址：iportal-ierp-icommon/taxRules/rpc/findTaxData&lt;br&gt;入参：[{&quot;lineId&quot;:1,&quot;orgId&quot;:1174}]&lt;br&gt;接口卡要求必传参数：orgId、sourceModule、lineId、currencyCode、amount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="440" width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-10" value="iportal-ierp-icommon" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-11" value="iservice-fin" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xAgu9xm0c7IVUL4pBZfr-12" value="iservice-tsp" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="140" width="150" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
