@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T05:53:16.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="k74W49RyPV7XjoFL8kRw" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T06:48:28.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kuqj3z9hLZYi198ca8lv" version="24.0.7" type="github">
   <diagram name="第 1 页" id="ejWgJgCK_KWAiwniCWpd">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6YbMw3j_ZapsThEQf594-1" value="配置基础数据&lt;div&gt;&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:&lt;br/&gt;等线;mso-fareast-font-family:等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:&lt;br/&gt;minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#0D0D0D;mso-color-index:1;mso-font-kerning:12.0pt;language:en-US;&lt;br/&gt;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1;&lt;br/&gt;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;PARAM_PUNCH_CODE&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-4" value="&lt;div&gt;&lt;font style=&quot;text-align: left;&quot; face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;快码配置-设备编码配置&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;PARAM_PUNCH&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-5" target="6YbMw3j_ZapsThEQf594-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-5" value="点击产线放大镜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-17" value="选择后点确认，关闭弹窗" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YbMw3j_ZapsThEQf594-15">
+          <mxGeometry x="-0.15" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-6" target="6YbMw3j_ZapsThEQf594-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-6" value="显示工单列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-13" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;根据产线、计划上线时间、计划完成时间查询&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-18" target="6YbMw3j_ZapsThEQf594-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-22" value="关联查询、计算完成数量、生产状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YbMw3j_ZapsThEQf594-21">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-18" value="传参，调查询接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-20" target="6YbMw3j_ZapsThEQf594-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-20" value="返回查询结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-23" target="6YbMw3j_ZapsThEQf594-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-28" value="点击" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YbMw3j_ZapsThEQf594-26">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-23" value="页面列表显示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-25" target="6YbMw3j_ZapsThEQf594-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-25" value="开始/下发按钮" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-27" value="&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:&lt;br/&gt;等线;mso-fareast-font-family:等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:&lt;br/&gt;minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#0D0D0D;mso-color-index:1;mso-font-kerning:12.0pt;language:zh-CN;&lt;br/&gt;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1;&lt;br/&gt;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;前一天&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:等线;mso-fareast-font-family:&lt;br/&gt;等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:&lt;br/&gt;1;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;&lt;br/&gt;mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#0D0D0D;&lt;br/&gt;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:&lt;br/&gt;&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;00:00&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;font-family:&lt;br/&gt;等线;mso-ascii-font-family:等线;mso-fareast-font-family:等线;mso-bidi-font-family:&lt;br/&gt;+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:1;mso-font-kerning:&lt;br/&gt;12.0pt;language:zh-CN;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:&lt;br/&gt;text1;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;到第二天&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:等线;mso-fareast-font-family:&lt;br/&gt;等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:&lt;br/&gt;1;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;&lt;br/&gt;mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#0D0D0D;&lt;br/&gt;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:&lt;br/&gt;&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;23:59:59&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;&lt;br/&gt;font-family:等线;mso-ascii-font-family:等线;mso-fareast-font-family:等线;mso-bidi-font-family:&lt;br/&gt;+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:1;mso-font-kerning:&lt;br/&gt;12.0pt;language:zh-CN;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:&lt;br/&gt;text1;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;（计划上线时间和计划完成时间段为：&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:等线;mso-fareast-font-family:&lt;br/&gt;等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:&lt;br/&gt;1;mso-font-kerning:12.0pt;language:zh-CN;mso-style-textfill-type:solid;&lt;br/&gt;mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#0D0D0D;&lt;br/&gt;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:&lt;br/&gt;&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;昨天、今天、明天&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;&lt;br/&gt;font-family:等线;mso-ascii-font-family:等线;mso-fareast-font-family:等线;mso-bidi-font-family:&lt;br/&gt;+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;color:#0D0D0D;mso-color-index:1;mso-font-kerning:&lt;br/&gt;12.0pt;language:zh-CN;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:&lt;br/&gt;text1;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;），状态为非完工、取消、关闭的工单&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-29" target="6YbMw3j_ZapsThEQf594-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-33" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YbMw3j_ZapsThEQf594-32">
+          <mxGeometry x="0.075" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6YbMw3j_ZapsThEQf594-29" target="6YbMw3j_ZapsThEQf594-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-36" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YbMw3j_ZapsThEQf594-35">
+          <mxGeometry x="-0.225" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-29" value="校验是否选择设备编码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-31" value="下发scada" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YbMw3j_ZapsThEQf594-34" value="&lt;span style=&quot;font-size:12.0pt;font-family:等线;mso-ascii-font-family:&lt;br/&gt;等线;mso-fareast-font-family:等线;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:&lt;br/&gt;minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#0D0D0D;mso-color-index:1;mso-font-kerning:12.0pt;language:zh-CN;&lt;br/&gt;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1;&lt;br/&gt;mso-style-textfill-fill-color:#0D0D0D;mso-style-textfill-fill-alpha:100.0%;&lt;br/&gt;mso-style-textfill-fill-colortransforms:&amp;quot;lumm=95000 lumo=5000&amp;quot;&quot;&gt;提示：请选择设备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1180" width="140" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
