@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="w7WVMiIMobun67OWd1sZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-1" target="uzT-6VGzj1tn3TCoeSUq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-1" value="操作标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-2" target="uzT-6VGzj1tn3TCoeSUq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-2" target="uzT-6VGzj1tn3TCoeSUq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-2" value="校验参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-4" value="1.操作用户&lt;div&gt;2.标签状态&lt;/div&gt;&lt;div&gt;3.数量&lt;/div&gt;&lt;div&gt;4.功能代码&lt;/div&gt;&lt;div&gt;5.事务代码&lt;/div&gt;&lt;div&gt;6.来源单号&lt;/div&gt;&lt;div&gt;7.来源单据类型&lt;/div&gt;&lt;div&gt;8.标签号&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="140" width="136" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-6" target="uzT-6VGzj1tn3TCoeSUq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-10" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uzT-6VGzj1tn3TCoeSUq-9">
+          <mxGeometry x="-0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-6" target="uzT-6VGzj1tn3TCoeSUq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-13" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uzT-6VGzj1tn3TCoeSUq-12">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-6" value="查询标签表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-8" target="uzT-6VGzj1tn3TCoeSUq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-8" value="插入标签" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uzT-6VGzj1tn3TCoeSUq-11" target="uzT-6VGzj1tn3TCoeSUq-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-11" value="更新标签" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="554" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzT-6VGzj1tn3TCoeSUq-14" value="插入标签日志记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
