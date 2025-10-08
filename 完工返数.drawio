@@ -173,7 +173,7 @@
         <mxCell id="zKiYXHPEGxiJC7v2Jcg3-53" value="减少现有量&lt;div&gt;交易方向是出库&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKiYXHPEGxiJC7v2Jcg3-61" value="1.根据标的自制件工单号、标签数量、工单的装配件编码进行完工入库。示例代码：&lt;span style=&quot;color: rgb(255, 198, 109); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(43, 43, 43);&quot;&gt;checkDataAndWhetherStockIn&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="zKiYXHPEGxiJC7v2Jcg3-61" value="1.根据标的自制件工单号、标签数量、工单的装配件编码进行完工返数。示例代码：&lt;span style=&quot;color: rgb(255, 198, 109); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(43, 43, 43);&quot;&gt;upToStandard&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-420" y="160" width="650" height="30" as="geometry" />
         </mxCell>
       </root>
