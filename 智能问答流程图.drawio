@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="第 1 页" id="I67TxIs6p400jxuYt7mE">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-4" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PmVDlaFmmNAKWiQweVHv-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用户" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-19" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-22" connectable="0" parent="PmVDlaFmmNAKWiQweVHv-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="api请求" vertex="1">
+          <mxGeometry relative="1" x="-0.1429" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入问题" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="txt知识库" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-17" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="langchain4j" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="读取" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="分割文本段" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="检索" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-16" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-14" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="300" width="200" x="270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-21" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-27" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ollama部署的大模型" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-28" edge="1" parent="1" source="PmVDlaFmmNAKWiQweVHv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="PmVDlaFmmNAKWiQweVHv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-30" connectable="0" parent="PmVDlaFmmNAKWiQweVHv-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="返回" vertex="1">
+          <mxGeometry relative="1" x="-0.0571" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmVDlaFmmNAKWiQweVHv-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成答案" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="380" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
