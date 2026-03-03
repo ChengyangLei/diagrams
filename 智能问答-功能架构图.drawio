@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="SkVsyWgB4PGOJc_IcdAz">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-3" edge="1" parent="1" source="JdD_hShsLXg4SrDV9fG3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JdD_hShsLXg4SrDV9fG3-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-5" edge="1" parent="1" source="JdD_hShsLXg4SrDV9fG3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JdD_hShsLXg4SrDV9fG3-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-8" edge="1" parent="1" source="JdD_hShsLXg4SrDV9fG3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JdD_hShsLXg4SrDV9fG3-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="校园智能问答系统" vertex="1">
+          <mxGeometry height="60" width="600" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;textDirection=vertical-lr;fontSize=15;" value="智能问答" vertex="1">
+          <mxGeometry height="200" width="65" x="398" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;textDirection=vertical-lr;fontSize=15;" value="用户管理模块" vertex="1">
+          <mxGeometry height="200" width="60" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JdD_hShsLXg4SrDV9fG3-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;textDirection=vertical-lr;fontSize=15;" value="问答历史记录" vertex="1">
+          <mxGeometry height="200" width="60" x="590" y="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
