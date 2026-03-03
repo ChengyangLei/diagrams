@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="第 1 页" id="dJjgVwGVDY2ccw8ZYiua">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,9 +45,6 @@
         </mxCell>
         <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ollama&lt;div&gt;本地部署qwen3:0.6b&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="160" x="180" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;图 4-1 系统整体架构图&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="400" x="160" y="560" as="geometry" />
         </mxCell>
         <mxCell id="Vrkb70uARPSG5ScrOtid-21" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="校园txt文件知识库" vertex="1">
           <mxGeometry height="130" width="150" x="80" y="420" as="geometry" />
